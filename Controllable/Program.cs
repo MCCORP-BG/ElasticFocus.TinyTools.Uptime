@@ -16,7 +16,6 @@ namespace ElasticFocus.TinyTools.Uptime
                 Console.WriteLine(Result.CONTAINER);
             if(Result.EXEC_RESULT == ServiceLogic.FRESULT.FAILURE)
                 Console.WriteLine(Result.CONTAINER);
-            Console.ReadKey();
         }
     }
 }
